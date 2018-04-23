@@ -18,7 +18,7 @@
 
 ### 直接记录快照
 
-  ![快照流](.\img\snapshots.png)
+  ![快照流](https://github.com/MineJoy/git_basic/blob/master/img/snapshots.png)
 
 * 在每次提交更新，或在 Git 中保存项目状态时，Git 主要对当时的全部文件只做一个快照并保存这个快照的索引。若文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。Git 对待数据更像是一个 **快照流**。
 * 存储每个文件与初始版本的差异（如上图）
@@ -29,7 +29,7 @@
 
 ### 三个工作区域
 
-  ![工作区域](.\img\areas.png)
+  ![工作区域](https://github.com/MineJoy/git_basic/blob/master/img/areas.png)
 
 * 工作目录（Working Directory）  
    对项目的某个版本独立提取出来的内容，这些从 Git 仓库的压缩数据库中提取出来的文件，放在磁盘上供你使用或修改。
